@@ -1,0 +1,25 @@
+import 'package:book_search/screens/details/components/cart_counter.dart';
+import 'package:material_ui/material_ui.dart';
+
+class CounterWithFavourite extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        CartCounter(),
+        Container(
+          height: 32,
+          width: 32,
+          decoration: BoxDecoration(
+            color: Color(0xFFFF6464),
+            shape: BoxShape.circle,
+          ),
+          child: Icon(Icons.favorite, color: Colors.white),
+        ),
+      ],
+    );
+  }
+}
