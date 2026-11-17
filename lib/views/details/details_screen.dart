@@ -1,6 +1,6 @@
-import 'package:book_search/constants.dart';
+import 'package:book_search/util/constants.dart';
 import 'package:book_search/models/book.dart';
-import 'package:book_search/screens/details/components/body.dart';
+import 'package:book_search/views/details/components/body.dart';
 import 'package:material_ui/material_ui.dart';
 
 class DetailsScreen extends StatelessWidget {

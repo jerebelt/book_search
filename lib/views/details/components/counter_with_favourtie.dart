@@ -1,4 +1,4 @@
-import 'package:book_search/screens/details/components/cart_counter.dart';
+import 'package:book_search/views/details/components/cart_counter.dart';
 import 'package:material_ui/material_ui.dart';
 
 class CounterWithFavourite extends StatelessWidget {

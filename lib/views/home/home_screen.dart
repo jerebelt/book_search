@@ -1,5 +1,5 @@
-import 'package:book_search/constants.dart';
-import 'package:book_search/screens/home/components/body.dart';
+import 'package:book_search/util/constants.dart';
+import 'package:book_search/views/home/components/body.dart';
 import 'package:material_ui/material_ui.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -7,10 +7,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: buildAppBar(),
-      body: Body()
-    );
+    return Scaffold(appBar: buildAppBar(), body: Body());
   }
 
   AppBar buildAppBar() {
@@ -24,7 +21,7 @@ class HomeScreen extends StatelessWidget {
           icon: Icon(Icons.search, color: kTextColor),
         ),
         SizedBox(width: kDefaultPadding / 2),
-      ], 
+      ],
     );
   }
 }

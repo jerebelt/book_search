@@ -1,4 +1,4 @@
- import 'package:book_search/constants.dart';
+import 'package:book_search/util/constants.dart';
 import 'package:material_ui/material_ui.dart';
 
 class Categories extends StatefulWidget {
@@ -9,7 +9,14 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Terror", "Romance", "Scifi", "Bio", "Fantasy", "Novels"];
+  List<String> categories = [
+    "Terror",
+    "Romance",
+    "Scifi",
+    "Bio",
+    "Fantasy",
+    "Novels",
+  ];
 
   int selectedIndex = 0;
   @override

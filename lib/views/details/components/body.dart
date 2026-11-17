@@ -1,10 +1,10 @@
-import 'package:book_search/constants.dart';
+import 'package:book_search/util/constants.dart';
 import 'package:book_search/models/book.dart';
-import 'package:book_search/screens/details/components/add_to_cart.dart';
-import 'package:book_search/screens/details/components/book_title_with_image.dart';
-import 'package:book_search/screens/details/components/color_and_size.dart';
-import 'package:book_search/screens/details/components/counter_with_favourtie.dart';
-import 'package:book_search/screens/details/components/description.dart';
+import 'package:book_search/views/details/components/add_to_cart.dart';
+import 'package:book_search/views/details/components/book_title_with_image.dart';
+import 'package:book_search/views/details/components/color_and_size.dart';
+import 'package:book_search/views/details/components/counter_with_favourtie.dart';
+import 'package:book_search/views/details/components/description.dart';
 import 'package:material_ui/material_ui.dart';
 
 class Body extends StatelessWidget {
